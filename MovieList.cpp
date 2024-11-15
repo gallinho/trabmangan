@@ -1,21 +1,46 @@
 #include "MovieList.hpp"
+#include "Movies.hpp"
 #include <fstream>
+#include <string>
+using namespace std;
 
 void MovieList::addMovie(const Movies& movie)
 {
     List.push_back(movie);
 }
 
-void MovieList::loadFromFile(const string& filename)
+vector<Movies> MovieList::loadFromFile(const string& filename)
 {
-    ifstream infile(filename);
+    vector<Movies> filmes;
 
-    if(!infile); //throw
+    ifstream infile(filename, ifstream::in);
 
-    for(int i = 0; i < 7; i++){
-        while(0);
+    string tmp;
+
+    string name,director,country,genre;
+    int year,profit;
+    double score;
+
+
+    while(getline(infile, tmp)){
+
+       if (getline(infile, name, ',') &&
+        getline(infile, director, ',') &&
+        getline(infile, country, ',') &&
+        getline(infile, genre, ',') &&
+
+        /*getline(infile, year, ',') &&
+        getline(infile, profit, ',') && /// vai dar errado, getline da std so funciona com string.
+        getline(infile, score, ',')*/ 
+        )
+        {
+        Movies a(name, director, country, genre, year, profit, score);
+        filmes.push_back(a);
+        }
+        else throw; // fazer algum throw, pra aprender (e ganhar mais nota)
     }
 
+    return filmes;
 }
 Movies MovieList::bestScore(){}
 Movies MovieList::oldest(){}
