@@ -9,40 +9,40 @@ void MovieList::addMovie(const Movies& movie)
     List.push_back(movie);
 }
 
-vector<Movies> MovieList::loadFromFile(const string& filename)
+void MovieList::loadFromFile(const string& filename)
 {
-    vector<Movies> filmes;
-
-    ifstream infile(filename, ifstream::in);
-
+    ifstream file(filename, ifstream::in); //nao tenho crtz se precisa do ifstream::in, mas vi na internet que o construtor pede
+    
     string tmp;
 
     string name,director,country,genre;
-    int year,profit;
+    int year,profit;                     // nao gostei muito dessa parte
     double score;
 
 
-    while(getline(infile, tmp)){
+    while(getline(file, tmp)){
 
-       if (getline(infile, name, ',') &&
-        getline(infile, director, ',') &&
-        getline(infile, country, ',') &&
-        getline(infile, genre, ',') &&
-
-        /*getline(infile, year, ',') &&
-        getline(infile, profit, ',') && /// vai dar errado, getline da std so funciona com string.
-        getline(infile, score, ',')*/ 
+       if (std::getline(file, name, ',') &&
+        getline(file, director, ',') &&
+        getline(file, country, ',') &&
+        getline(file, genre, ',') &&
+        getline(file, year, ',') &&
+        getline(file, profit, ',') && /// vai dar errado, getline da std so funciona com string.
+        getline(file, score, ',')
         )
         {
         Movies a(name, director, country, genre, year, profit, score);
-        filmes.push_back(a);
+        addMovie(a);
         }
-        else throw; // fazer algum throw, pra aprender (e ganhar mais nota)
+        else cout<<"erro"<<endl; // fazer algum throw, pra aprender (e ganhar mais nota)
     }
-
-    return filmes;
 }
 Movies MovieList::bestScore(){}
 Movies MovieList::oldest(){}
 Movies MovieList::mostRentable(){}
-void MovieList::printList(){}
+void MovieList::printList() const
+{
+    for(int i = 0; i<2; i++){
+        List[i].printMovie;
+    }  
+}

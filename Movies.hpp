@@ -24,6 +24,11 @@ public:
            double score, int profit) : name(name), director(director),
                                        year(year), country(country), genre(genre), 
                                        score(score), profit(profit) {};
+
+    printMovie()
+    {
+        cout << name << "   " << director << "  " << year << "  " << country << "    " << genre << "    " << score << "     " << profit << endl;
+    }
 };
 
 #endif
