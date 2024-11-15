@@ -2,47 +2,73 @@
 #include "Movies.hpp"
 #include <fstream>
 #include <string>
+#include <sstream>
+#include <iostream>
 using namespace std;
 
-void MovieList::addMovie(const Movies& movie)
+void MovieList::addMovie(const Movies &movie)
 {
     List.push_back(movie);
 }
 
-void MovieList::loadFromFile(const string& filename)
+void MovieList::loadFromFile(const string &filename)
 {
-    ifstream file(filename, ifstream::in); //nao tenho crtz se precisa do ifstream::in, mas vi na internet que o construtor pede
-    
-    string tmp;
+    ifstream file(filename);
 
-    string name,director,country,genre;
-    int year,profit;                     // nao gostei muito dessa parte
-    double score;
-
-
-    while(getline(file, tmp)){
-
-       if (std::getline(file, name, ',') &&
-        getline(file, director, ',') &&
-        getline(file, country, ',') &&
-        getline(file, genre, ',') &&
-        getline(file, year, ',') &&
-        getline(file, profit, ',') && /// vai dar errado, getline da std so funciona com string.
-        getline(file, score, ',')
-        )
-        {
-        Movies a(name, director, country, genre, year, profit, score);
-        addMovie(a);
-        }
-        else cout<<"erro"<<endl; // fazer algum throw, pra aprender (e ganhar mais nota)
+    if (!file.is_open())
+    {
+        throw runtime_error("Erro ao abrir o arquivo: " + filename);
     }
+
+    string line;
+    while (getline(file, line))
+    {
+        stringstream streamline(line);
+        string name, director, country, genre;
+        double score;
+        int year, profit;
+
+        // Ler cada campo da linha separada por vírgula
+        getline(streamline, name, ',');
+        getline(streamline, director, ',');
+        streamline >> year;
+        streamline.ignore(1, ',');  // Ignorar vírgula
+        getline(streamline, country, ',');
+        getline(streamline, genre, ',');
+        streamline >> score;
+        streamline.ignore(1, ',');  // Ignorar vírgula
+        streamline >> profit;
+
+        // Criar o objeto Movies e adicionar à lista
+        Movies movie(name, director, year, country, genre, score, profit);
+        addMovie(movie);
+    }
+
+    file.close();
 }
-Movies MovieList::bestScore(){}
-Movies MovieList::oldest(){}
-Movies MovieList::mostRentable(){}
+
+Movies MovieList::bestScore()
+{
+    Movies a; // Placeholder por enquanto
+    return a;
+}
+
+Movies MovieList::oldest()
+{
+    Movies a; // Placeholder por enquanto
+    return a;
+}
+
+Movies MovieList::mostRentable()
+{
+    Movies a; // Placeholder por enquanto
+    return a;
+}
+
 void MovieList::printList() const
 {
-    for(int i = 0; i<2; i++){
-        List[i].printMovie;
-    }  
+    for (const auto& movie : List)
+    {
+        movie.printMovie();
+    }
 }

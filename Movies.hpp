@@ -2,6 +2,7 @@
 #define MOVIES_HPP
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -25,9 +26,10 @@ public:
                                        year(year), country(country), genre(genre), 
                                        score(score), profit(profit) {};
 
-    printMovie()
+   void printMovie() const
     {
-        cout << name << "   " << director << "  " << year << "  " << country << "    " << genre << "    " << score << "     " << profit << endl;
+        cout << "Titulo: "<<name << " | " << "Diretor:" <<director << " | "<<"Ano: " << year << " | "<<"País: " << country << " | " 
+        "Genero: "<< genre << " | "<<"Score: " << score << " | " <<"Bilheteria: "<< profit << endl;
     }
 };
 

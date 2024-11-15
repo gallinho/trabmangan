@@ -14,10 +14,10 @@ public:
 
 MovieList(){};
 void loadFromFile(const string& filename);
-Movies bestScore();
-Movies oldest();
-Movies mostRentable();
-void printList();
+Movies bestScore();//falta
+Movies oldest();//falta
+Movies mostRentable();//falta
+void printList() const;
 
 };
 

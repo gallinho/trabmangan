@@ -4,10 +4,10 @@
 
 int main(){
 
-MovieList filmes();
+MovieList filmes;
 
-filmes.loadFromFile(teste);
+filmes.loadFromFile("teste.txt");
 
-filme.printList;
+filmes.printList();
 
 }
