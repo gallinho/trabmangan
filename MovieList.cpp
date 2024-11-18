@@ -118,7 +118,7 @@ Movies MovieList::bestPerCountry(string country) // não consegui
         throw runtime_error("Lista vazia");
     }
 
-    Movies *best = nullptr;
+    const Movies *best = nullptr;
 
     for( const auto & movie : List){
         if( movie.getCountry() == country)
@@ -135,7 +135,7 @@ Movies MovieList::bestPerCountry(string country) // não consegui
         throw runtime_error("Nenhum filme desse país");
     }
 
-    return best;
+    return *best;
 }
 
 void MovieList::printList() const
