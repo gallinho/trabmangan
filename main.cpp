@@ -17,7 +17,4 @@ filmes.loadFromFile("teste.txt");
 (filmes.bestPerCountry("KOR")).printMovie(); // ta dando erro aqui
 (filmes.bestPerGenre("Drama")).printMovie();
 
-
-
-
 }

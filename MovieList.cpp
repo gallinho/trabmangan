@@ -114,17 +114,26 @@ Movies MovieList::bestPerGenre(string genre)
 
 Movies MovieList::bestPerCountry(string country) // não consegui 
 {
-    Movies best = List[0];
+    if (List.empty()) {
+        throw runtime_error("Lista vazia");
+    }
+
+    Movies *best = nullptr;
 
     for( const auto & movie : List){
-        if(country == movie.getCountry()){
-            if (movie.getScore() > best.getScore())
+        if( movie.getCountry() == country)
+        {
+            if (best == nullptr || movie.getScore() > best->getScore())
             {
-                best = movie;
+                best = &movie;
             }
         }
     }
 
+    if(best == nullptr) 
+    {
+        throw runtime_error("Nenhum filme desse país");
+    }
 
     return best;
 }
