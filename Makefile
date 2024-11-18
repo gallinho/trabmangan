@@ -1,11 +1,11 @@
-output: main.o MoviesList.o
-	g++ main.o MoviesList.o -o output
+output: main.o MovieList.o
+	g++ main.o MovieList.o -o output
 
 main.o: main.cpp
 	g++ -c main.cpp
 
-MoviesList.o: MoviesList.cpp MoviesList.hpp
-	g++ -c MoviesList.cpp
+MovieList.o: MovieList.cpp MovieList.hpp
+	g++ -c MovieList.cpp
 
 clean:
 	rm *.o output
