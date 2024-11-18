@@ -1,15 +1,15 @@
-A Origem, Christopher Nolan, 2010, EUA, Ficção científica/Ação, 8.8, 292 
-Parasita, Bong Joon-ho, 2019, Coreia do Sul, Drama/Suspense, 8.6, 258
-O Poderoso Chefão, Francis Ford Coppola, 1972, EUA, Crime/Drama, 9,2, 250
-Cidade de Deus, Fernando Meirelles, 2002, Brasil, Crime/Drama, 8.9, 30
-O Senhor dos Anéis: A Sociedade do Anel, Peter Jackson, 2001, Eua, Aventura/Fantasia, 8.8, 887
-Forrest Gump, Robert Zemeckis, 1994, EUA, Drama/Romance, 8,8, 680
-Pulp Fiction: Tempo de Violência, Quentin Tarantino, 1994, EUA, Crime/Drama, 8.9, 214
-Gladiador, Ridley Scott, 2000, EUA, Ação/Drama, 8.5, 465
-Coringa, Todd Phillips, 2019, EUA, Drama/Crime, 8.4, 1000
-Interestelar, Christopher Nolan, 2014, EUA, Ficção científica/Drama, 8.6, 731
-A Lista de Schindler, Steven Spielberg, 1993, EUA, Drama/Histórico, 9.0, 322
-Clube da Luta, David Fincher, 1999, EUA, Drama/Psicológico, 8.8, 101
-O Silêncio dos Inocentes, Jonathan Demme, 1991, EUA, Suspense/Crime, 8.6, 273
-O Pianista, Roman Polanski, 2002, França/Polônia, Drama/Biografia, 8.5, 120
-Whiplash: Em Busca da Perfeição, Damien Chazelle, 2014, EUA, Drama/Música, 8.5, 49
+A Origem, Christopher Nolan, 2010,EUA,Ficção científica,Ação, 8.8, 292 
+Parasita, Bong Joon-ho, 2019,KOR,Drama,Suspense, 8.6, 258
+O Poderoso Chefão, Francis Ford Coppola, 1972,EUA,Crime,Drama, 9.2, 250
+Cidade de Deus, Fernando Meirelles, 2002,BRA,Crime,Drama, 8.9, 30
+O Senhor dos Anéis: A Sociedade do Anel, Peter Jackson, 2001,EUA,Aventura,Fantasia, 8.8, 887
+Forrest Gump, Robert Zemeckis, 1994,EUA,Drama,Romance, 8.8, 680
+Pulp Fiction: Tempo de Violência, Quentin Tarantino, 1994,EUA,Crime,Drama, 8.9, 214
+Gladiador, Ridley Scott, 2000,EUA,Ação,Drama, 8.5, 465
+Coringa, Todd Phillips, 2019, EUA,Drama,Crime, 8.4, 1000
+Interestelar, Christopher Nolan, 2014,EUA,Ficção científica,Drama, 8.6, 731
+A Lista de Schindler, Steven Spielberg, 1993,EUA,Drama,Histórico, 9.0, 322
+Clube da Luta, David Fincher, 1999,EUA,Drama,Psicológico, 8.8, 101
+O Silêncio dos Inocentes, Jonathan Demme, 1991,EUA,Suspense,Crime, 8.6, 273
+O Pianista, Roman Polanski, 2002, França,POL,Drama,Biografia, 8.5, 120
+Whiplash: Em Busca da Perfeição, Damien Chazelle, 2014,EUA,Drama,Música, 8.5, 49

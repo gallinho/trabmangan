@@ -12,12 +12,17 @@ void addMovie(const Movies& movie);
 
 public:
 
+
 MovieList(){};
 void loadFromFile(const string& filename);
-Movies bestScore();//falta
-Movies oldest();//falta
-Movies mostRentable();//falta
+Movies bestScore();
+Movies oldest();
+Movies mostRentable();
+Movies bestPerGenre(string genre);
+Movies bestPerCountry(string country);
 void printList() const;
+
+
 
 };
 
