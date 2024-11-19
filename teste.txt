@@ -11,7 +11,7 @@ Interestelar,Christopher Nolan,2014,EUA,Ficcao cientifica,Drama,8.6,731
 A Lista de Schindler,Steven Spielberg,1993,EUA,Drama,Historico,9.0,322
 Clube da Luta,David Fincher,1999,EUA,Drama,Psicologico,8.8,101
 O Silencio dos Inocentes,Jonathan Demme,1991,EUA,Suspense,Crime,8.6,273
-O Pianista,Roman Polanski,2002,Franca,POL,Drama,Biografia,8.5,120
+O Pianista,Roman Polanski,2002,FRA,Drama,Biografia,8.5,120
 Whiplash: Em Busca da Perfeicao,Damien Chazelle,2014,EUA,Drama,Musica,8.5,49
 O Rei Leao,Roger Allers,1994,EUA,Animacao,Aventura,8.5,800
 Matrix,Lilly Wachowski / Lana Wachowski,1999,EUA,Acao,Ficcao cientifica,8.7,1045

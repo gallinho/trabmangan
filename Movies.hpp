@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 #include <locale>
+#include <iomanip>
 using namespace std;
 
 
@@ -32,8 +33,16 @@ public:
     {
     
         std::setlocale(LC_ALL,"Portuguese");
-        cout << "Titulo: "<<name << " | " << "Diretor:" <<director << " | "<<"Ano: " << year << " | "<< endl 
-        <<"País: " << country << " | "  "Generos: "<< genre1 << "/"<<genre2 << " | "<<"Score: " << score << " | " <<"Bilheteria: "<< profit << endl << endl;
+               std::setlocale(LC_ALL,"Portuguese");
+
+        cout << left << setw(45) << name 
+                     << setw(45) << director 
+                     << setw(6) << year 
+                     << setw(15) << country 
+                    << setw(35) << (genre1 + "/" + genre2) 
+                    << setw(8) << score 
+                     << profit << endl;
+
     }
 
     int getProfit() const

@@ -32,12 +32,12 @@ void MovieList::loadFromFile(const string &filename)
         getline(streamline, name, ',');
         getline(streamline, director, ',');
         streamline >> year;
-        streamline.ignore(1, ',');  // Ignorar vírgula
+        streamline.ignore(1, ','); // Ignorar vírgula
         getline(streamline, country, ',');
         getline(streamline, genre1, ',');
         getline(streamline, genre2, ',');
         streamline >> score;
-        streamline.ignore(1, ',');  // Ignorar vírgula
+        streamline.ignore(1, ','); // Ignorar vírgula
         streamline >> profit;
 
         // Criar o objeto Movies e adicionar à lista
@@ -50,14 +50,15 @@ void MovieList::loadFromFile(const string &filename)
 
 Movies MovieList::bestScore()
 {
-      Movies bestScore = List[0];
+    Movies bestScore = List[0];
+  
 
-    for(const auto& movie : List){
-        if(movie.getScore()>bestScore.getScore())
-         {
+    for (const auto &movie : List)
+    {
+        if (movie.getScore() > bestScore.getScore())
+        {
             bestScore = movie;
-         }
-         
+        }
     }
 
     return bestScore;
@@ -66,12 +67,13 @@ Movies MovieList::bestScore()
 Movies MovieList::oldest()
 {
     Movies oldest = List[0];
-
-    for(const auto& movie : List){
-        if(movie.getYear()<oldest.getYear())
-         {
+   
+    for (const auto &movie : List)
+    {
+        if (movie.getYear() < oldest.getYear())
+        {
             oldest = movie;
-         }
+        }
     }
 
     return oldest;
@@ -80,8 +82,9 @@ Movies MovieList::oldest()
 Movies MovieList::mostRentable()
 {
     Movies MostR = List[0];
+  
 
-    for (const auto& movie : List) // Itera pelo vetor verificando qual o filme mais rentável e retorna o mesmo
+    for (const auto &movie : List) // Itera pelo vetor verificando qual o filme mais rentável e retorna o mesmo
     {
         if (movie.getProfit() > MostR.getProfit())
         {
@@ -94,14 +97,17 @@ Movies MovieList::mostRentable()
 
 Movies MovieList::bestPerGenre(string genre)
 {
-    if (List.empty()) {
+  
+    if (List.empty())
+    {
         throw runtime_error("Lista vazia");
     }
 
     const Movies *best = nullptr;
 
-    for( const auto & movie : List){
-        if( movie.getGenre1() == genre || movie.getGenre2() == genre)
+    for (const auto &movie : List)
+    {
+        if (movie.getGenre1() == genre || movie.getGenre2() == genre)
         {
             if (best == nullptr || movie.getScore() > best->getScore())
             {
@@ -110,7 +116,7 @@ Movies MovieList::bestPerGenre(string genre)
         }
     }
 
-    if(best == nullptr) 
+    if (best == nullptr)
     {
         throw runtime_error("Nenhum filme com esse genero");
     }
@@ -118,16 +124,18 @@ Movies MovieList::bestPerGenre(string genre)
     return *best;
 }
 
-Movies MovieList::bestPerCountry(string country) // não consegui 
+Movies MovieList::bestPerCountry(string country) // não consegui
 {
-    if (List.empty()) {
+    if (List.empty())
+    {
         throw runtime_error("Lista vazia");
     }
 
     const Movies *best = nullptr;
 
-    for( const auto & movie : List){
-        if( movie.getCountry() == country)
+    for (const auto &movie : List)
+    {
+        if (movie.getCountry() == country)
         {
             if (best == nullptr || movie.getScore() > best->getScore())
             {
@@ -136,7 +144,7 @@ Movies MovieList::bestPerCountry(string country) // não consegui
         }
     }
 
-    if(best == nullptr) 
+    if (best == nullptr)
     {
         throw runtime_error("Nenhum filme desse país");
     }
@@ -146,8 +154,28 @@ Movies MovieList::bestPerCountry(string country) // não consegui
 
 void MovieList::printList() const
 {
-    for (const auto& movie : List)
+
+    if (List.empty())
+    {
+        throw runtime_error("LISTA ESTA VAZIA!!!");
+    }
+    cout << endl;
+    // Cabeçalho da tabela
+    cout << left << setw(45) << "Title"
+         << setw(45) << "Director"
+         << setw(6) << "Year"
+         << setw(15) << "Country"
+         << setw(35) << "Genre"
+         << setw(8) << "Score"
+         << "Profit" << endl;
+
+    cout << string(170, '-') << endl; // Linha divisória
+
+    for (const auto &movie : List)
     {
         movie.printMovie();
     }
+
+    cout << string(170, '-') << endl
+         << endl; // Linha divisória
 }
