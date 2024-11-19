@@ -95,21 +95,27 @@ Movies MovieList::mostRentable()
 Movies MovieList::bestPerGenre(string genre)
 {
     if (List.empty()) {
-        throw runtime_error("The list is empty.");
+        throw runtime_error("Lista vazia");
     }
-    Movies best = List[0];
+
+    const Movies *best = nullptr;
 
     for( const auto & movie : List){
-        if(genre == movie.getGenre1() || genre == movie.getGenre2()){
-            if (movie.getScore() > best.getScore())
+        if( movie.getGenre1() == genre || movie.getGenre2() == genre)
+        {
+            if (best == nullptr || movie.getScore() > best->getScore())
             {
-                best = movie;
+                best = &movie;
             }
         }
     }
 
+    if(best == nullptr) 
+    {
+        throw runtime_error("Nenhum filme com esse genero");
+    }
 
-    return best;
+    return *best;
 }
 
 Movies MovieList::bestPerCountry(string country) // não consegui 
