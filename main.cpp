@@ -35,19 +35,19 @@ int main()
             filmes.printList();
             break;
         case 2:
-            filmes.bestScore();
+            (filmes.bestScore()).printMovie();
             break;
         case 3:
             printgenres(aux);
-            filmes.bestPerGenre(aux);
+            (filmes.bestPerGenre(aux)).printMovie();
             break;
         case 4:;
             break;
         case 5:
-            filmes.oldest();
+            (filmes.oldest()).printMovie();
             break;
         case 6:
-            filmes.mostRentable();
+            (filmes.mostRentable()).printMovie();
             break;
         case 0:
             Bfim = true;
