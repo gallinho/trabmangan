@@ -3,8 +3,9 @@
 #include <string>
 #include <vector>
 #include <iostream>
-
+#include <locale>
 using namespace std;
+
 
 class Movies
 {
@@ -29,6 +30,8 @@ public:
 
    void printMovie() const
     {
+    
+        std::setlocale(LC_ALL,"Portuguese");
         cout << "Titulo: "<<name << " | " << "Diretor:" <<director << " | "<<"Ano: " << year << " | "<< endl 
         <<"País: " << country << " | "  "Generos: "<< genre1 << "/"<<genre2 << " | "<<"Score: " << score << " | " <<"Bilheteria: "<< profit << endl << endl;
     }
