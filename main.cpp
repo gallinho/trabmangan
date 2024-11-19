@@ -225,5 +225,5 @@ void printcountries(string &aux)
 
 void divisor()
 {
-    cout << string(170, '-') << endl; // Linha divisória
+    cout << string(100, '-') << endl; // Linha divisória
 }
