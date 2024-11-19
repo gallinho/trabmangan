@@ -1,61 +1,61 @@
-A Origem,Christopher Nolan,2010,EUA,Ficção científica,Ação,8.8,292
+A Origem,Christopher Nolan,2010,EUA,Ficcao cientifica,Acao,8.8,292
 Parasita,Bong Joon-ho,2019,KOR,Drama,Suspense,8.6,258
-O Poderoso Chefão,Francis Ford Coppola,1972,EUA,Crime,Drama,9.2,250
+O Poderoso Chefao,Francis Ford Coppola,1972,EUA,Crime,Drama,9.2,250
 Cidade de Deus,Fernando Meirelles,2002,BRA,Crime,Drama,8.9,30
-O Senhor dos Anéis: A Sociedade do Anel,Peter Jackson,2001,EUA,Aventura,Fantasia,8.8,887
+O Senhor dos Aneis: A Sociedade do Anel,Peter Jackson,2001,EUA,Aventura,Fantasia,8.8,887
 Forrest Gump,Robert Zemeckis,1994,EUA,Drama,Romance,8.8,680
-Pulp Fiction: Tempo de Violência,Quentin Tarantino,1994,EUA,Crime,Drama,8.9,214
-Gladiador,Ridley Scott,2000,EUA,Ação,Drama,8.5,465
+Pulp Fiction: Tempo de Violencia,Quentin Tarantino,1994,EUA,Crime,Drama,8.9,214
+Gladiador,Ridley Scott,2000,EUA,Acao,Drama,8.5,465
 Coringa,Todd Phillips,2019,EUA,Drama,Crime,8.4,1000
-Interestelar,Christopher Nolan,2014,EUA,Ficção científica,Drama,8.6,731
-A Lista de Schindler,Steven Spielberg,1993,EUA,Drama,Histórico,9.0,322
-Clube da Luta,David Fincher,1999,EUA,Drama,Psicológico,8.8,101
-O Silêncio dos Inocentes,Jonathan Demme,1991,EUA,Suspense,Crime,8.6,273
-O Pianista,Roman Polanski,2002,França,POL,Drama,Biografia,8.5,120
-Whiplash: Em Busca da Perfeição,Damien Chazelle,2014,EUA,Drama,Música,8.5,49
-O Rei Leão,Roger Allers,1994,EUA,Animação,Aventura,8.5,800
-Matrix,Lilly Wachowski / Lana Wachowski,1999,EUA,Ação,Ficção científica,8.7,1045
-O Grande Lebowski,Joel Coen / Ethan Coen,1998,EUA,Comédia,Crime,8.1,550
-Cidadão Kane,Orson Welles,1941,EUA,Drama,Mistério,8.3,210
-O Lobo de Wall Street,Martin Scorsese,2013,EUA,Biografia,Comédia,8.2,950
+Interestelar,Christopher Nolan,2014,EUA,Ficcao cientifica,Drama,8.6,731
+A Lista de Schindler,Steven Spielberg,1993,EUA,Drama,Historico,9.0,322
+Clube da Luta,David Fincher,1999,EUA,Drama,Psicologico,8.8,101
+O Silencio dos Inocentes,Jonathan Demme,1991,EUA,Suspense,Crime,8.6,273
+O Pianista,Roman Polanski,2002,Franca,POL,Drama,Biografia,8.5,120
+Whiplash: Em Busca da Perfeicao,Damien Chazelle,2014,EUA,Drama,Musica,8.5,49
+O Rei Leao,Roger Allers,1994,EUA,Animacao,Aventura,8.5,800
+Matrix,Lilly Wachowski / Lana Wachowski,1999,EUA,Acao,Ficcao cientifica,8.7,1045
+O Grande Lebowski,Joel Coen / Ethan Coen,1998,EUA,Comedia,Crime,8.1,550
+Cidadao Kane,Orson Welles,1941,EUA,Drama,Misterio,8.3,210
+O Lobo de Wall Street,Martin Scorsese,2013,EUA,Biografia,Comedia,8.2,950
 O Iluminado,Stanley Kubrick,1980,EUA,Terror,Drama,8.4,640
-A Vida é Bela,Roberto Benigni,1997,ITA,Drama,Comédia,8.6,725
-O Vingador do Futuro,Paul Verhoeven,1990,EUA,Ação,Ficção científica,7.6,423
-Vingadores: Ultimato,Anthony Russo / Joe Russo,2019,EUA,Ação,Aventura,8.4,1200
-O Exorcista,William Friedkin,1973,EUA,Terror,Mistério,8.0,450
+A Vida e Bela,Roberto Benigni,1997,ITA,Drama,Comedia,8.6,725
+O Vingador do Futuro,Paul Verhoeven,1990,EUA,Acao,Ficcao cientifica,7.6,423
+Vingadores: Ultimato,Anthony Russo / Joe Russo,2019,EUA,Acao,Aventura,8.4,1200
+O Exorcista,William Friedkin,1973,EUA,Terror,Misterio,8.0,450
 Os Bons Companheiros,Martin Scorsese,1990,EUA,Crime,Drama,8.7,880
-O Senhor dos Anéis: O Retorno do Rei,Peter Jackson,2003,EUA,Aventura,Fantasia,9.0,1090
-O Fabuloso Destino de Amélie Poulain,Jean-Pierre Jeunet,2001,FRA,Comédia,Romance,8.3,640
-Kill Bill: Volume 1,Quentin Tarantino,2003,EUA,Ação,Crime,8.1,700
-O Grande Hotel Budapeste,Wes Anderson,2014,EUA,Comédia,Drama,8.1,545
-Poderoso Chefão: Parte II,Francis Ford Coppola,1974,EUA,Crime,Drama,9.0,450
+O Senhor dos Aneis: O Retorno do Rei,Peter Jackson,2003,EUA,Aventura,Fantasia,9.0,1090
+O Fabuloso Destino de Amelie Poulain,Jean-Pierre Jeunet,2001,FRA,Comedia,Romance,8.3,640
+Kill Bill: Volume 1,Quentin Tarantino,2003,EUA,Acao,Crime,8.1,700
+O Grande Hotel Budapeste,Wes Anderson,2014,EUA,Comedia,Drama,8.1,545
+Poderoso Chefao: Parte II,Francis Ford Coppola,1974,EUA,Crime,Drama,9.0,450
 Se7en: Os Sete Crimes Capitais,David Fincher,1995,EUA,Crime,Drama,8.6,945
-Blade Runner 2049,Denis Villeneuve,2017,EUA,Ficção científica,Mistério,8.0,570
-Vingadores: Guerra Infinita,Anthony Russo / Joe Russo,2018,EUA,Ação,Aventura,8.4,1030
-O Fantasma da Ópera,Joel Schumacher,2004,EUA,Drama,Musical,7.3,310
+Blade Runner 2049,Denis Villeneuve,2017,EUA,Ficcao cientifica,Misterio,8.0,570
+Vingadores: Guerra Infinita,Anthony Russo / Joe Russo,2018,EUA,Acao,Aventura,8.4,1030
+O Fantasma da Opera,Joel Schumacher,2004,EUA,Drama,Musical,7.3,310
 O Grande Gatsby,Baz Luhrmann,2013,EUA,Drama,Romance,7.2,540
-O Jogo da Imitação,Morten Tyldum,2014,EUA,Biografia,Drama,8.0,650
+O Jogo da Imitacao,Morten Tyldum,2014,EUA,Biografia,Drama,8.0,650
 Her,Spike Jonze,2013,EUA,Drama,Romance,8.0,800
 O Labirinto do Fauno,Guillermo del Toro,2006,ESP,Drama,Fantasia,8.2,400
-O Regresso,Alejandro González Iñárritu,2015,EUA,Aventura,Drama,8.0,900
+O Regresso,Alejandro Gonzalez Inarritu,2015,EUA,Aventura,Drama,8.0,900
 O Menino do Pijama Listrado,Mark Herman,2008,EUA,Drama,Guerra,7.8,310
 A Teoria de Tudo,James Marsh,2014,EUA,Biografia,Drama,7.7,500
-12 Anos de Escravidão,Steve McQueen,2013,EUA,Drama,História,8.1,930
-A Guerra do Amanhã,Chris McKay,2021,EUA,Ação,Ficção científica,6.7,370
-O Mistério de Silver Lake,David Robert Mitchell,2018,EUA,Mistério,Suspense,6.8,120
-O Rei,David Michôd,2019,EUA,Drama,História,7.3,430
-O Artista,Michel Hazanavicius,2011,FRA,Comédia,Drama,8.0,320
+12 Anos de Escravidao,Steve McQueen,2013,EUA,Drama,Historia,8.1,930
+A Guerra do Amanha,Chris McKay,2021,EUA,Acao,Ficcao cientifica,6.7,370
+O Misterio de Silver Lake,David Robert Mitchell,2018,EUA,Misterio,Suspense,6.8,120
+O Rei,David Michod,2019,EUA,Drama,Historia,7.3,430
+O Artista,Michel Hazanavicius,2011,FRA,Comedia,Drama,8.0,320
 O Regresso do Mestre,Robert De Niro / Martin Scorsese,2016,EUA,Drama,Crime,7.6,380
 A Rede Social,David Fincher,2010,EUA,Drama,Biografia,8.0,990
-A Vida Secreta de Walter Mitty,Ben Stiller,2013,EUA,Aventura,Comédia,7.3,710
-A Chegada,Denis Villeneuve,2016,EUA,Ficção científica,Drama,7.9,940
+A Vida Secreta de Walter Mitty,Ben Stiller,2013,EUA,Aventura,Comedia,7.3,710
+A Chegada,Denis Villeneuve,2016,EUA,Ficcao cientifica,Drama,7.9,940
 Na Natureza Selvagem,Sean Penn,2007,EUA,Aventura,Drama,8.1,630
 Coringa,Todd Phillips,2019,EUA,Drama,Crime,8.4,1000
 Corra!,Jordan Peele,2017,EUA,Terror,Suspense,7.7,870
-O Último Imperador,Bernardo Bertolucci,1987,ITA,Drama,Histórico,7.8,370
+O Ultimo Imperador,Bernardo Bertolucci,1987,ITA,Drama,Historico,7.8,370
 Trainspotting,Danny Boyle,1996,EUA,Drama,Crime,8.1,510
-A Maldição da Casa Winchester,Michael Spierig / Peter Spierig,2018,EUA,Terror,Mistério,6.4,310
-Memento,Christopher Nolan,2000,EUA,Mistério,Thriller,8.4,900
-Tropa de Elite,José Padilha,2007,BRA,Ação,Crime,8.1,1150
-O Mistério de Wells,Wes Anderson,2012,EUA,Aventura,Drama,7.8,580
-O Filho de Saul,László Nemes,2015,HUN,Drama,História,8.1,430
+A Maldicao da Casa Winchester,Michael Spierig / Peter Spierig,2018,EUA,Terror,Misterio,6.4,310
+Memento,Christopher Nolan,2000,EUA,Misterio,Thriller,8.4,900
+Tropa de Elite,Jose Padilha,2007,BRA,Acao,Crime,8.1,1150
+O Misterio de Wells,Wes Anderson,2012,EUA,Aventura,Drama,7.8,580
+O Filho de Saul,Laszlo Nemes,2015,HUN,Drama,Historia,8.1,430

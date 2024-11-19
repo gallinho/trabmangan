@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "");
 
     MovieList filmes;
 
@@ -109,25 +109,25 @@ void printgenres(string &aux)
               << endl;
 
     int c;
-    cout << "Enter the number corresponding to the gender you want: ";
+    cout << "Enter the number corresponding to the genre you want: ";
     cin >> c;
 
     switch (c)
     {
     case 1:
-        aux = "Ação";
+        aux = "Acao";
         break;
     case 2:
         aux = "Aventura";
         break;
     case 3:
-        aux = "Animação";
+        aux = "Animacao";
         break;
     case 4:
         aux = "Biografia";
         break;
     case 5:
-        aux = "Comédia";
+        aux = "Comedia";
         break;
     case 6:
         aux = "Crime";
@@ -139,43 +139,44 @@ void printgenres(string &aux)
         aux = "Fantasia";
         break;
     case 9:
-        aux = "Histórico";
+        aux = "Historico";
         break;
     case 10:
         aux = "Terror";
         break;
     case 11:
-        aux = "Mistério";
+        aux = "Misterio";
         break;
     case 12:
-        aux = "Psicológico";
+        aux = "Psicologico";
         break;
     case 13:
         aux = "Romance";
         break;
     case 14:
-        aux = "Ficção Científica";
+        aux = "Ficcao Cientifica";
         break;
     case 15:
         aux = "Suspense";
         break;
     default:
-        cout << "Please enter a valid gender." << endl;
+        cout << "Please enter a valid genre." << endl;
         break;
     }
 }
 
 
+
 void printcountries(string &aux) {
     cout << "---------------------     COUNTRIES AVAILABLE     -------------------" << endl
-              << "----------- 1 = EUA (Estados Unidos da América)               -----------" << endl
-              << "----------- 2 = KOR (Coreia do Sul)                           -----------" << endl
-              << "----------- 3 = BRA (Brasil)                                  -----------" << endl
-              << "----------- 4 = FRA (França)                                  -----------" << endl
-              << "----------- 5 = POL (Polônia)                                 -----------" << endl
-              << "----------- 6 = ITA (Itália)                                  -----------" << endl
-              << "----------- 7 = ESP (Espanha)                                 -----------" << endl
-              << "----------- 8 = HUN (Hungria)                                 -----------" << endl
+              << "----------- 1 = EUA (Estados Unidos da America)              -----------" << endl
+              << "----------- 2 = KOR (Coreia do Sul)                          -----------" << endl
+              << "----------- 3 = BRA (Brasil)                                 -----------" << endl
+              << "----------- 4 = FRA (Franca)                                 -----------" << endl
+              << "----------- 5 = POL (Polonia)                                -----------" << endl
+              << "----------- 6 = ITA (Italia)                                 -----------" << endl
+              << "----------- 7 = ESP (Espanha)                                -----------" << endl
+              << "----------- 8 = HUN (Hungria)                                -----------" << endl
               << "-----------------------------------------------------------------------" << endl
               << endl;
 
