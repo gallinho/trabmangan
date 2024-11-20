@@ -15,43 +15,47 @@ void MovieList::addMovie(const Movies &movie)
 
 void MovieList::loadFromFile(const string &filename)
 {
-    ifstream file(filename);
+    ifstream file(filename); // criamos objeto da classe ifstream usando o construtor parametrizado para abrir o arquivo.
 
-    if (!file.is_open())
+    if (!file.is_open()) // verifica se o arquivo foi aberto corretamente
     {
-        throw runtime_error("Erro ao abrir o arquivo: " + filename);
+        throw runtime_error("Erro ao abrir o arquivo: " + filename); 
     }
 
     string line;
-    while (getline(file, line))
+    while (getline(file, line))  //retira uma linha do arquivo e armazena na variavel do tipo string "line"
     {
-        stringstream streamline(line);
-        string name, director, country, genre1, genre2;
-        double score;
-        int year, profit;
+        stringstream streamline(line); //cria um objeto da classe stringstream e armazena a linha nele
 
-        // Ler cada campo da linha separada por vírgula
-        getline(streamline, name, ',');
+        string name, director, country, genre1, genre2; //
+        double score;                                   // variaveis auxiliares
+        int year, profit;                               //
+
+        // ler cada campo da linha separada por virgula e adicionar na variavel auxiliar
+        getline(streamline, name, ',');        //pegamos a informacao do arquivo usando getline com 
         getline(streamline, director, ',');
         streamline >> year;
-        streamline.ignore(1, ','); // Ignorar vírgula
+        streamline.ignore(1, ','); // Ignorar virgula
         getline(streamline, country, ',');
         getline(streamline, genre1, ',');
         getline(streamline, genre2, ',');
         streamline >> score;
-        streamline.ignore(1, ','); // Ignorar vírgula
+        streamline.ignore(1, ','); 
         streamline >> profit;
 
-        // Criar o objeto Movies e adicionar à lista
+        // criar o objeto Movies e adicionar a lista usando as variaveis como parametros
         Movies movie(name, director, year, country, genre1, genre2, score, profit);
-        addMovie(movie);
+        addMovie(movie); // coloca o movie criado na lista
     }
 
-    file.close();
+    file.close(); // fecha o arquivo
 }
 
 Movies MovieList::bestScore()
 {
+    if(List.empty()) throw runtime_error("Lista vazia!");
+
+
     Movies bestScore = List[0];
   
 
@@ -68,6 +72,8 @@ Movies MovieList::bestScore()
 
 Movies MovieList::oldest()
 {
+    if(List.empty()) throw runtime_error("Lista vazia!");
+
     Movies oldest = List[0];
    
     for (const auto &movie : List)
@@ -83,6 +89,9 @@ Movies MovieList::oldest()
 
 Movies MovieList::mostRentable()
 {
+    if(List.empty()) throw runtime_error("Lista vazia!");
+
+
     Movies MostR = List[0];
   
 
