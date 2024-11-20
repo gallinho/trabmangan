@@ -4,6 +4,8 @@
 #include <string>
 #include <sstream>
 #include <iostream>
+#include <algorithm>
+
 using namespace std;
 
 void MovieList::addMovie(const Movies &movie)
@@ -167,7 +169,7 @@ void MovieList::printList() const
          << setw(15) << "Country"
          << setw(35) << "Genre"
          << setw(8) << "Score"
-         << "Profit" << endl;
+         << "Profit M/DOL" << endl;
 
     cout << string(170, '-') << endl; // Linha divisória
 
@@ -178,4 +180,9 @@ void MovieList::printList() const
 
     cout << string(170, '-') << endl
          << endl; // Linha divisória
+}
+
+int MovieList::size() const
+{
+    return distance(List.begin(), List.end());
 }

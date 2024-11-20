@@ -55,7 +55,39 @@ Corra!,Jordan Peele,2017,EUA,Terror,Suspense,7.7,870
 O Ultimo Imperador,Bernardo Bertolucci,1987,ITA,Drama,Historico,7.8,370
 Trainspotting,Danny Boyle,1996,EUA,Drama,Crime,8.1,510
 A Maldicao da Casa Winchester,Michael Spierig / Peter Spierig,2018,EUA,Terror,Misterio,6.4,310
-Memento,Christopher Nolan,2000,EUA,Misterio,Thriller,8.4,900
-Tropa de Elite,Jose Padilha,2007,BRA,Acao,Crime,8.1,1150
-O Misterio de Wells,Wes Anderson,2012,EUA,Aventura,Drama,7.8,580
+Memento,Christopher Nolan,2000,EUA,Misterio,Thriller,8.4,40
+Tropa de Elite,Jose Padilha,2007,BRA,Acao,Crime,8.1,5
+O Misterio de Wells,Wes Anderson,2012,EUA,Aventura,Drama,7.8,122
 O Filho de Saul,Laszlo Nemes,2015,HUN,Drama,Historia,8.1,430
+Duna,Denis Villeneuve,2021,EUA,Ficcao cientifica,Aventura,8.0,700
+La La Land: Cantando Estacoes,Damien Chazelle,2016,EUA,Drama,Musica,8.0,470
+Birdman ou A Inesperada Virtude da Ignorancia,Alejandro G. Inarritu,2014,EUA,Comedia,Drama,7.7,103
+Cisne Negro,Darren Aronofsky,2010,EUA,Drama,Suspense,8.0,329
+Mad Max: Estrada da Furia,George Miller,2015,AUS,Acao,Aventura,8.1,144
+A Origem dos Guardioes,Peter Ramsey,2012,EUA,Animacao,Aventura,7.3,140
+Logan,James Mangold,2017,EUA,Acao,Drama,8.1,610
+O Labirinto do Fauno,Guillermo del Toro,2006,ESP,Ficcao cientifica,Fantasia,8.2,83
+Pantera Negra,Ryan Coogler,2018,EUA,Acao,Aventura,7.3,1300
+O Profissional,Luc Besson,1994,FRA,Acao,Crime,8.5,170
+Homem-Aranha: No Aranhaverso,Bob Persichetti / Peter Ramsey,2018,EUA,Animacao,Aventura,8.4,690
+Homem de Ferro,Jon Favreau,2008,EUA,Acao,Aventura,7.9,575
+Ratatouille,Brad Bird / Jan Pinkava,2007,EUA,Animacao,Comedia,8.0,450
+A Bela e a Fera,Gary Trousdale / Kirk Wise,1991,EUA,Animacao,Familia,8.0,1000 
+Toy Story,John Lasseter,1995,EUA,Animacao,Aventura,8.3,406
+A Partida,Yojiro Takita,2008,JAP,Drama, ,8.1,20
+O Segredo dos Seus Olhos,Juan José Campanella,2009,ARG,Drama,Misterio,8.2,32
+A Invenção de Hugo Cabret,Martin Scorsese,2011,EUA,Aventura,Drama,7.5,185
+A Vida dos Outros,Florian Henckel von Donnersmarck,2006,ALE,Drama,Misterio,8.4,100
+Drive,Nicolas Winding Refn,2011,EUA,Acao,Suspense,7.8,78
+O Discurso do Rei,Tom Hooper,2010,UK,Drama,Historico,8.0,472
+Gran Torino,Clint Eastwood,2008,EUA,Drama, ,8.1,269
+O Artista,Michel Hazanavicius,2011,FRA,Comedia,Drama,8.0,133
+Gênio Indomável,Gus Van Sant,1997,EUA,Drama,Romance,8.3,225
+A Incrível Jornada,Duwayne Dunham,1993,EUA,Aventura,Drama,6.9,80
+Snatch: Porcos e Diamantes,Guy Ritchie,2000,UK,Crime,Comédia,8.3,83
+Réquiem para um Sonho,Darren Aronofsky,2000,EUA,Drama, ,8.3,128
+A Forma da Água,Guillermo del Toro,2017,EUA,Drama,Fantasia,7.3,15
+Era uma Vez em Hollywood,Quentin Tarantino,2019,EUA,Comédia,Drama,7.6,373
+A Pequena Miss Sunshine,Jonathan Dayton / Valerie Faris,2006,EUA,Comédia,Drama,8.0,3
+Encontros e Desencontros,Sofia Coppola,2003,EUA,Drama,Romance,7.7,54
+Minari,Lee Isaac Chung,2020,EUA,Drama, ,8.0,47

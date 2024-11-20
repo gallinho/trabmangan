@@ -60,9 +60,14 @@ int main()
             divisor(); (filmes.mostRentable()).printMovie(); divisor();
             cout << endl;
             break;
+        case 7:
+            divisor();   cout<<"Tamanho da Lista = "<<filmes.size()<<" filmes"<<endl;    divisor();
+            break;
         case 0:
             Bfim = true;
             break;
+        default: cout<<"|OPÇÃO INVÁLIDA|"<<endl;
+
         }
     }
 
@@ -90,6 +95,7 @@ void choices()
          << "----------- 4 = Show the best movie per country           -----------" << endl
          << "----------- 5 = Show the oldest movie                     -----------" << endl
          << "----------- 6 = Show the most rentable movie              -----------" << endl
+         << "----------- 7 = Show the size of the List                 -----------" << endl
          << "----------- 0 = Exit                                      -----------" << endl
          << "-----------=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-----------" << endl
          << endl;
@@ -225,5 +231,5 @@ void printcountries(string &aux)
 
 void divisor()
 {
-    cout << string(100, '-') << endl; // Linha divisória
+    cout << string(170, '-') << endl; // Linha divisória
 }
