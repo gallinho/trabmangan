@@ -111,23 +111,23 @@ Movies MovieList::bestPerGenre(string genre)
   
     if (List.empty())
     {
-        throw runtime_error("Lista vazia");
+        throw runtime_error("Lista vazia"); //verifica se a lista esta vazia
     }
 
-    const Movies *best = nullptr;
+    const Movies *best = nullptr; //cria um *movie com nullptr para evitar erros
 
-    for (const auto &movie : List)
+    for (const auto &movie : List)  // usa laço de for com iterador para percorrer a lista evitando copias
     {
-        if (movie.getGenre1() == genre || movie.getGenre2() == genre)
+        if (movie.getGenre1() == genre || movie.getGenre2() == genre) //verifica se o filme é do genero escolhido
         {
-            if (best == nullptr || movie.getScore() > best->getScore())
+            if (best == nullptr || movie.getScore() > best->getScore()) //compara as notas do best com o filme atual
             {
-                best = &movie;
+                best = &movie;  
             }
         }
     }
 
-    if (best == nullptr)
+    if (best == nullptr)    //caso best fique com nullptr, não existe nenhum filme com o genero escolhido
     {
         throw runtime_error("Nenhum filme com esse genero");
     }
@@ -135,8 +135,7 @@ Movies MovieList::bestPerGenre(string genre)
     return *best;
 }
 
-Movies MovieList::bestPerCountry(string country) // não consegui
-{
+Movies MovieList::bestPerCountry(string country){
     if (List.empty())
     {
         throw runtime_error("Lista vazia");
@@ -172,7 +171,7 @@ void MovieList::printList() const
     }
     cout << endl;
     // Cabeçalho da tabela
-    cout << left << setw(45) << "Title"
+    cout << left << setw(45) << "Title" //setW define a largura
          << setw(45) << "Director"
          << setw(6) << "Year"
          << setw(15) << "Country"

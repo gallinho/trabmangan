@@ -31,16 +31,13 @@ public:
 
    void printMovie() const
     {
-    
-        std::setlocale(LC_ALL,"Portuguese");
-               std::setlocale(LC_ALL,"Portuguese");
-
-        cout << left << setw(45) << name 
+        //left alinha o texto a esquerda
+        cout << left << setw(45) << name            //setW define a largura
                      << setw(45) << director 
                      << setw(6) << year 
                      << setw(15) << country 
-                    << setw(35) << (genre1 + "/" + genre2) 
-                    << setw(8) << score 
+                     << setw(35) << (genre1 + "/" + genre2) 
+                     << setw(8) << score 
                      << profit << endl;
 
     }

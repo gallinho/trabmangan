@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include "MovieList.hpp"
-#include <locale>
 #include <string>
 
 void header();
@@ -14,7 +13,6 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "");
 
     MovieList filmes;
 
